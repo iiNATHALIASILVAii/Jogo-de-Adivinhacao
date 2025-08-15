@@ -17,5 +17,10 @@ alertaTentativas.textContent = `Tentativas restantes: ${
   maxTentativas - tentativas
 }`;
 
-// 5. Função para chute
+// 5. Função para quando clicar no botão chute
+function chutarNumero() {
+  console.log("OK");
+}
 
+// 6. Vinculo botão com a função
+chuteBotao.addEventListener("click", chutarNumero);
